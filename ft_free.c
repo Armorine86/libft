@@ -6,13 +6,13 @@
 /*   By: mmondell <mmondell@student.42quebec.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/12 10:27:09 by mmondell          #+#    #+#             */
-/*   Updated: 2021/08/12 10:38:09 by mmondell         ###   ########.fr       */
+/*   Updated: 2021/08/12 10:40:54 by mmondell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_free(void *ptr)
+void	*ft_free(void *ptr)
 {
 	free(ptr);
 	return (NULL);
