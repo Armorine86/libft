@@ -6,15 +6,20 @@
 /*   By: mmondell <mmondell@student.42quebec.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/06 15:35:52 by mmondell          #+#    #+#             */
-/*   Updated: 2021/10/26 11:12:20 by mmondell         ###   ########.fr       */
+/*   Updated: 2021/10/26 11:15:16 by mmondell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+# include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <math.h>
+
+struct int32_t	int32_t;
+struct int64_t	int64_t;
+struct int8_t	int8_t;
 
 /*------BONUS CONTENT------*/
 
