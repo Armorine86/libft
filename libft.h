@@ -6,7 +6,7 @@
 /*   By: mmondell <mmondell@student.42quebec.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/06 15:35:52 by mmondell          #+#    #+#             */
-/*   Updated: 2021/10/26 11:15:16 by mmondell         ###   ########.fr       */
+/*   Updated: 2021/10/26 11:18:32 by mmondell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,9 @@
 struct int32_t	int32_t;
 struct int64_t	int64_t;
 struct int8_t	int8_t;
+
+# define BASE10 "0123456789"
+# define BASE16 "0123456789abcdef"
 
 /*------BONUS CONTENT------*/
 
@@ -76,12 +79,12 @@ char	*ft_strrchr(const char *s, int c);
 char	*ft_strnstr(const char	*haystack, const char *needle, size_t len);
 char	*ft_strdup(const char *src);
 char	*ft_strcpy(char *dest, char *src);
+long	ft_atol(const char *str);
+int		ft_atoi(const char *str);
 int		ft_numlen(long long num, int base_len);
 int		ft_isupper(int c);
 int		ft_strcmp(char *s1, char *s2);
 int		ft_nbrlen(long long nbr);
-int		ft_atoi(const char *str);
-long	ft_atol(const char *str);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_isalpha(int c);
