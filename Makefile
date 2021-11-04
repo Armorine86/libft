@@ -6,7 +6,7 @@
 #    By: mmondell <mmondell@student.42quebec.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/05/06 15:27:16 by mmondell          #+#    #+#              #
-#    Updated: 2021/10/26 11:10:43 by mmondell         ###   ########.fr        #
+#    Updated: 2021/11/04 14:43:29 by mmondell         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,6 +23,7 @@ SRCS 	= 	ft_atoi.c ft_isascii.c ft_memchr.c ft_putchar_fd.c ft_strchr.c \
 			ft_str_to_upper.c ft_isspace.c ft_atol.c ft_free.c get_next_line.c\
 			ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c ft_lstdelone.c \
 			ft_lstiter.c ft_lstlast.c ft_lstmap.c ft_lstnew.c ft_lstsize.c \
+			ft_freetab.c
 
 BONUS_O = 	$(BONUS_S:.c=.o)
 OBJS	= 	${SRCS:.c=.o}
