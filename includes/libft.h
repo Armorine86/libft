@@ -17,10 +17,6 @@
 # include <unistd.h>
 # include <math.h>
 
-struct int32_t	int32_t;
-struct int64_t	int64_t;
-struct int8_t	int8_t;
-
 # define BASE10 "0123456789"
 # define BASE16 "0123456789abcdef"
 
