@@ -26,7 +26,7 @@ SRCS_FILES		= 	ft_atoi.c ft_isascii.c ft_memchr.c ft_putchar_fd.c ft_strchr.c \
 					ft_str_to_upper.c ft_isspace.c ft_atol.c ft_free.c get_next_line.c\
 					ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c ft_lstdelone.c \
 					ft_lstiter.c ft_lstlast.c ft_lstmap.c ft_lstnew.c ft_lstsize.c \
-					ft_freetab.c
+					ft_freetab.c ft_tabsize.c
 
 ## ----- .C TO .O CONVERT ----- ##
 OBJ_FILES		= $(SRCS_FILES:.c=.o)
@@ -81,9 +81,11 @@ obj:
 ## ----- CLEAN COMMANDS ----- ##
 clean:
 	@$(RM) $(OBJS) $(B_OBJS) $(OBJ_DIR)
+	@echo "\033[34;1mLIBFT CLEANING DONE\033[0m"
 
 fclean: clean
 	@rm -f $(NAME)
+	@echo "\033[34;1mLIBFT FCLEAN DONE\033[0m"
 
 re: fclean all bonus
 
