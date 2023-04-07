@@ -28,11 +28,9 @@ SRCS_FILES		= 	ft_atoi.c ft_isascii.c ft_memchr.c ft_putchar_fd.c ft_strchr.c \
 					ft_lstiter.c ft_lstlast.c ft_lstmap.c ft_lstnew.c ft_lstsize.c \
 					ft_freetab.c ft_tabsize.c
 
-## ----- .C TO .O CONVERT ----- ##
 OBJ_FILES		= $(SRCS_FILES:.c=.o)
 
 ## ----- ADDPREFIX TO FILES ----- ##
-# MAIN PROGRAMM #
 SRCS			= $(addprefix $(SRCS_DIR), $(SRCS_FILES))
 OBJS			= $(addprefix $(OBJ_DIR), $(OBJ_FILES))
 VPATH			= $(SRCS_DIR) 
