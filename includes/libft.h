@@ -43,6 +43,7 @@ size_t	ft_strlen(const char *s);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t 	ft_tabsize(char **tab);
+void 	ft_print_tab(char **tab);
 void	ft_putchar(char c);
 void	ft_putnchar(char c, int n);
 void	ft_putnbr(long long num);
